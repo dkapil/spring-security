@@ -64,7 +64,7 @@ import org.springframework.util.Assert;
  * NB: This implementation does attempt to provide reasonably optimised lookups - within
  * the constraints of a normalised database and standard ANSI SQL features. If you are
  * willing to sacrifice either of these constraints (e.g. use a particular database
- * feature such as hierarchical queries or materalized views, or reduce normalisation) you
+ * feature such as hierarchical queries or materialized views, or reduce normalisation) you
  * are likely to achieve better performance. In such situations you will need to provide
  * your own custom <code>LookupStrategy</code>. This class does not support subclassing,
  * as it is likely to change in future releases and therefore subclassing is unsupported.
